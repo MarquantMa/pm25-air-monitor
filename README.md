@@ -75,5 +75,5 @@ float ugM3 = dustDensity * 1000.0;         // μg/m³
 
 ## 5. Author & License
 - **Author:** Haoran Ma (Marquant) ([GitHub @MarquantMa](https://github.com/MarquantMa))
-- **Email:** `marquant_voldemort@icloud.com`
+- **Email:** `markma_cd@icloud.com`
 - **License:** MIT License
