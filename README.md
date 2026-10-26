@@ -4,7 +4,7 @@
 [![License: MIT](https://img.shields.io/badge/License-MIT-blue.svg)](LICENSE)
 [![MCU: Arduino Nano](https://img.shields.io/badge/MCU-Arduino%20Nano%20(ATmega328P)-blue.svg)]()
 [![Sensor: Sharp GP2Y1010](https://img.shields.io/badge/Sensor-Sharp%20GP2Y1010AU0F-lightgrey.svg)]()
-[![Author: Haoran Ma](https://img.shields.io/badge/Author-Haoran%20Ma-orange.svg)](https://github.com/marquant)
+[![Author: Haoran Ma](https://img.shields.io/badge/Author-Haoran%20Ma-orange.svg)](https://github.com/MarquantMa)
 
 ---
 
@@ -74,6 +74,6 @@ float ugM3 = dustDensity * 1000.0;         // μg/m³
 ---
 
 ## 5. Author & License
-- **Author:** Haoran Ma (Marquant) ([GitHub @marquant](https://github.com/marquant))
+- **Author:** Haoran Ma (Marquant) ([GitHub @MarquantMa](https://github.com/MarquantMa))
 - **Email:** `marquant_voldemort@icloud.com`
 - **License:** MIT License
