@@ -1,4 +1,4 @@
-# Sharp GP2Y1010AU0F PM2.5 Optical Dust Monitor (Arduino Nano) 🌫️📊
+# Sharp GP2Y1010AU0F PM2.5 Optical Dust Monitor (Arduino Nano)
 > **Classroom Particulate Matter Telemetry Node with Microsecond Optical Pulse Timing & Linear Dust Density Calibration**
 
 [![License: MIT](https://img.shields.io/badge/License-MIT-blue.svg)](LICENSE)
@@ -55,13 +55,13 @@ ADC:   |       [analogRead(A0)]  |
 
 ```cpp
 // 1. Trigger Infrared Pulse
-digitalWrite(ledPower, LOW); 
+digitalWrite(ledPower, LOW);
 delayMicroseconds(280);
 
 // 2. Sample Optical Voltage
 float rawSignal = analogRead(dustPin);
 delayMicroseconds(40);
-digitalWrite(ledPower, HIGH); 
+digitalWrite(ledPower, HIGH);
 delayMicroseconds(9680);
 
 // 3. Compute Density
